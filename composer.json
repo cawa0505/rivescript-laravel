@@ -1,0 +1,28 @@
+{
+    "name": "vulcan/rivescript-laravel",
+    "description": "Laravel wrapper for the RiveScript PHP library. RiveScript is a scripting language for chatterbots, making it easy to write trigger/response pairs for building up a bot's intelligence.",
+    "keywords": ["rivescript", "bot", "ai", "chatterbot", "vulcan", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shea Lewis",
+            "email": "shea.lewis89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*",
+        "vulcan/rivescript": "~1.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vulcan\\Rivescript\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
