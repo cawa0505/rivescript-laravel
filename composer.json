@@ -1,5 +1,5 @@
 {
-    "name": "vulcan/rivescript-laravel",
+    "name": "cawa0505/rivescript-laravel",
     "description": "Laravel wrapper for the RiveScript PHP library. RiveScript is a scripting language for chatterbots, making it easy to write trigger/response pairs for building up a bot's intelligence.",
     "keywords": ["rivescript", "bot", "ai", "chatterbot", "vulcan", "laravel"],
     "license": "MIT",
